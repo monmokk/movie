@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 from pymongo import MongoClient
-client = MongoClient('')
+# 꼭 디비 주소 없애기ㅠㅠㅠ
 db = client.dbsparta
 
 import requests
